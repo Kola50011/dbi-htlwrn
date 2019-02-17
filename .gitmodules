@@ -1,0 +1,3 @@
+[submodule "docker/docker-oracle-xe-11g"]
+	path = docker/docker-oracle-xe-11g
+	url = git@github.com:wnameless/docker-oracle-xe-11g.git
