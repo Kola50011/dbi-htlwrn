@@ -1,16 +1,16 @@
-version: '3'
-services: 
+version: "3"
+services:
   db:
-    image: wnameless/oracle-xe-11g
-    ports: 
+    build: docker-oracle-xe-11g
+    ports:
       - "1521:1521"
-    environment: 
+    environment:
       - ORACLE_ALLOW_REMOTE=true
   # sqldeveloper:
   #   image: marcelhuberfoo/sqldeveloper
   #   environment:
   #     - DISPLAY=unix$DISPLAY
-  #   volumes: 
+  #   volumes:
   #     - /tmp/.X11-unix:/tmp/.X11-unix
   #     # - /home/koka/workspace/sql:/data:rw
   #   depends_on:

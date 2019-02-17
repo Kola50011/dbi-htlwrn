@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 15,
+            "database": "xe",
+            "dialect": "MySQL",
+            "name": "oracle",
+            "password": "oracle",
+            "port": 1521,
+            "server": "127.0.0.1",
+            "username": "system"
+        }
+    ]
+}
