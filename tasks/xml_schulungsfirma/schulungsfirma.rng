@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="schulungsfirma">
+      <oneOrMore>
+        <element name="person">
+          <attribute name="fname">
+            <data type="string"/>
+          </attribute>
+          <attribute name="land">
+            <data type="string"/>
+          </attribute>
+          <attribute name="ort">
+            <data type="string"/>
+          </attribute>
+          <attribute name="pnr">
+            <data type="positiveInteger"/>
+          </attribute>
+          <attribute name="vname"/>
+          <optional>
+            <optional>
+              <element name="referent">
+                <attribute name="gebdat">
+                  <data type="date"/>
+                </attribute>
+                <attribute name="seit">
+                  <data type="date"/>
+                </attribute>
+                <optional>
+                  <attribute name="titel">
+                    <data type="string"/>
+                  </attribute>
+                </optional>
+              </element>
+            </optional>
+            <oneOrMore>
+              <element name="geeignet">
+                <attribute name="knr">
+                  <data type="positiveInteger"/>
+                </attribute>
+              </element>
+            </oneOrMore>
+          </optional>
+        </element>
+      </oneOrMore>
+      <oneOrMore>
+        <element name="kurs">
+          <attribute name="bezeichn"/>
+          <attribute name="knr">
+            <data type="positiveInteger"/>
+          </attribute>
+          <attribute name="preis">
+            <data type="decimal"/>
+          </attribute>
+          <attribute name="tage">
+            <data type="positiveInteger"/>
+          </attribute>
+          <zeroOrMore>
+            <element name="setztvor">
+              <attribute name="knr">
+                <data type="positiveInteger"/>
+              </attribute>
+            </element>
+          </zeroOrMore>
+        </element>
+      </oneOrMore>
+      <oneOrMore>
+        <element name="kveranst">
+          <attribute name="bis">
+            <data type="date"/>
+          </attribute>
+          <attribute name="knr">
+            <data type="positiveInteger"/>
+          </attribute>
+          <attribute name="knrlfnd">
+            <data type="positiveInteger"/>
+          </attribute>
+          <attribute name="ort">
+            <data type="string"/>
+          </attribute>
+          <attribute name="plaetze">
+            <data type="positiveInteger"/>
+          </attribute>
+          <optional>
+            <attribute name="pnr">
+              <data type="positiveInteger"/>
+            </attribute>
+          </optional>
+          <attribute name="von">
+            <data type="date"/>
+          </attribute>
+          <zeroOrMore>
+            <element name="besucht">
+              <optional>
+                <attribute name="bezahlt">
+                  <data type="date"/>
+                </attribute>
+              </optional>
+              <attribute name="pnr">
+                <data type="positiveInteger"/>
+              </attribute>
+            </element>
+          </zeroOrMore>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>

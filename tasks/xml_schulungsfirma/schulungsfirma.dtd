@@ -1,0 +1,56 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT schulungsfirma (person+,kurs+,kveranst+)>
+<!ATTLIST schulungsfirma
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT person (referent?,geeignet+)?>
+<!ATTLIST person
+  xmlns CDATA #FIXED ''
+  fname CDATA #REQUIRED
+  land CDATA #REQUIRED
+  ort CDATA #REQUIRED
+  pnr CDATA #REQUIRED
+  vname CDATA #REQUIRED>
+
+<!ELEMENT kurs (setztvor)*>
+<!ATTLIST kurs
+  xmlns CDATA #FIXED ''
+  bezeichn CDATA #REQUIRED
+  knr CDATA #REQUIRED
+  preis CDATA #REQUIRED
+  tage CDATA #REQUIRED>
+
+<!ELEMENT kveranst (besucht)*>
+<!ATTLIST kveranst
+  xmlns CDATA #FIXED ''
+  bis NMTOKEN #REQUIRED
+  knr CDATA #REQUIRED
+  knrlfnd CDATA #REQUIRED
+  ort CDATA #REQUIRED
+  plaetze CDATA #REQUIRED
+  pnr CDATA #IMPLIED
+  von NMTOKEN #REQUIRED>
+
+<!ELEMENT referent EMPTY>
+<!ATTLIST referent
+  xmlns CDATA #FIXED ''
+  gebdat NMTOKEN #REQUIRED
+  seit NMTOKEN #REQUIRED
+  titel CDATA #IMPLIED>
+
+<!ELEMENT geeignet EMPTY>
+<!ATTLIST geeignet
+  xmlns CDATA #FIXED ''
+  knr CDATA #REQUIRED>
+
+<!ELEMENT setztvor EMPTY>
+<!ATTLIST setztvor
+  xmlns CDATA #FIXED ''
+  knr CDATA #REQUIRED>
+
+<!ELEMENT besucht EMPTY>
+<!ATTLIST besucht
+  xmlns CDATA #FIXED ''
+  bezahlt NMTOKEN #IMPLIED
+  pnr CDATA #REQUIRED>

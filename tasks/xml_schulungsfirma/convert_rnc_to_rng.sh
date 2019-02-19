@@ -1,0 +1,1 @@
+java -jar ../../tools/trang/trang.jar -I rnc -O rng schulungsfirma.rnc schulungsfirma.rng

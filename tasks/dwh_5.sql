@@ -1,4 +1,5 @@
 -- 1)
+drop table bitmap;
 drop table zeit;
 
 alter session
@@ -22,7 +23,6 @@ insert into zeit values('7.8.2006' , 32,  8, 3, 2006);
 insert into zeit values('13.5.2006', 19,  5, 2, 2006);
 
 -- 2)
-drop table bitmap;
 
 create table bitmap (
     datum date primary key,
@@ -40,14 +40,21 @@ create table bitmap (
     B12 int not null
 );
 
-insert into bitmap values ('5.12.2006', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1);
-insert into bitmap values ('12.1.2006', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
-insert into bitmap values ('23.3.2006', 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
-insert into bitmap values ('4.5.2006' , 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1);
-insert into bitmap values ('7.1.2006' , 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
-insert into bitmap values ('13.7.2006', 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1);
-insert into bitmap values ('7.8.2006' , 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1);
-insert into bitmap values ('13.5.2006', 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1);
+insert into bitmap
+      select datum,
+             case when monat <= 12 then 1 else 0 end,
+             case when monat <= 11 then 1 else 0 end,
+             case when monat <= 10 then 1 else 0 end,
+             case when monat <= 9 then 1 else 0 end,
+             case when monat <= 8 then 1 else 0 end,
+             case when monat <= 7 then 1 else 0 end,
+             case when monat <= 6 then 1 else 0 end,
+             case when monat <= 5 then 1 else 0 end,
+             case when monat <= 4 then 1 else 0 end,
+             case when monat <= 3 then 1 else 0 end,
+             case when monat <= 2 then 1 else 0 end,
+             case when monat <= 1 then 1 else 0 end                          
+        from zeit;
 
 -- 4)
 -- Bereich von Februar bis einschließlich Mai („Januar“ < x ≤ „Mai“)

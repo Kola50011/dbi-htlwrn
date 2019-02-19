@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schulungsfirma>
+  <person pnr="101" fname="Bach" vname="Johann Sebastian" ort="Leipzig" land="D">
+    <referent gebdat="1935-03-21" seit="1980-01-01" />
+    <geeignet knr="5" />
+  </person>
+  <person pnr="102" fname="Händel" vname="Georg Friedrich" ort="London" land="" />
+  <person pnr="103" fname="Haydn" vname="Joseph" ort="Wien" land="A">
+    <referent gebdat="1932-04-01" seit="1991-01-01" />
+    <geeignet knr="1" />
+    <geeignet knr="3" />
+    <geeignet knr="7" />
+  </person>
+  <person pnr="104" fname="Mozart" vname="Wolfgang Amadeus" ort="Salzburg" land="A">
+    <referent gebdat="1956-01-27" seit="1985-07-01" />
+    <geeignet knr="2" />
+    <geeignet knr="4" />
+  </person>
+  <person pnr="105" fname="Beethoven" vname="Ludwig van" ort="Wien" land="A" />
+  <person pnr="106" fname="Schubert" vname="Franz" ort="Wien" land="A" />
+  <person pnr="107" fname="Berlioz" vname="Hector" ort="Paris" land="F" />
+  <person pnr="108" fname="Liszt" vname="Franz" ort="Wien" land="A" />
+  <person pnr="109" fname="Wagner" vname="Richard" ort="München" land="D" />
+  <person pnr="110" fname="Verdi" vname="Giuseppe" ort="Busseto" land="I" />
+  <person pnr="111" fname="Bruckner" vname="Anton" ort="Linz" land="A">
+    <referent gebdat="1924-09-04" seit="1990-07-01" titel="Mag" />
+    <geeignet knr="2" />
+    <geeignet knr="6" />
+  </person>
+  <person pnr="112" fname="Brahms" vname="Johannes" ort="Wien" land="A" />
+  <person pnr="113" fname="Bizet" vname="Georges" ort="Paris" land="F" />
+  <person pnr="114" fname="Tschaikowskij" vname="Peter" ort="Moskau" land="RUS">
+    <referent gebdat="1940-04-25" seit="1980-07-01" />
+    <geeignet knr="1" />
+    <geeignet knr="5" />
+  </person>
+  <person pnr="115" fname="Puccini" vname="Giacomo" ort="Mailand" land="I" />
+  <person pnr="116" fname="Strauss" vname="Richard" ort="München" land="D">
+    <referent gebdat="1964-06-11" seit="1994-01-01" titel="Dr" />
+    <geeignet knr="7" />
+  </person>
+  <person pnr="117" fname="Schönberg" vname="Arnold" ort="Wien" land="A" />
+
+  <kurs knr="1" bezeichn="Notenkunde" tage="2" preis="1400.0000">
+    <setztvor knr="1"/>
+  </kurs>
+  <kurs knr="2" bezeichn="Harmonielehre" tage="3" preis="2000.0000">
+    <setztvor knr="1"/>
+  </kurs>
+  <kurs knr="3" bezeichn="Rhythmik" tage="1" preis="700.0000">
+    <setztvor knr="1"/>
+  </kurs>
+  <kurs knr="4" bezeichn="Instrumentenkunde" tage="2" preis="1500.0000">
+  </kurs>
+  <kurs knr="5" bezeichn="Dirigieren" tage="3" preis="1900.0000">
+    <setztvor knr="2"/>
+    <setztvor knr="3"/>
+    <setztvor knr="4"/>
+  </kurs>
+  <kurs knr="6" bezeichn="Musikgeschichte" tage="2" preis="1400.0000">
+  </kurs>
+  <kurs knr="7" bezeichn="Komposition" tage="4" preis="3300.0000">
+    <setztvor knr="5"/>
+    <setztvor knr="6"/>
+  </kurs>
+  <kurs knr="8" bezeichn="Violine für Anfänger" tage="9" preis="3300.0000">
+  </kurs>
+
+  <kveranst knr="1" knrlfnd="1" von="2003-04-07" bis="2003-04-08" ort="Wien" plaetze="3" pnr="103">
+    <besucht pnr="108" bezahlt="2003-05-01" />
+    <besucht pnr="109" />
+    <besucht pnr="114" />
+  </kveranst>
+  <kveranst knr="1" knrlfnd="2" von="2004-06-23" bis="2004-06-24" ort="Moskau" plaetze="4" pnr="114">
+    <besucht pnr="110" bezahlt="2004-07-01" />
+    <besucht pnr="112" bezahlt="2004-07-03" />
+    <besucht pnr="113" bezahlt="2004-07-20" />
+    <besucht pnr="116" />
+  </kveranst>
+  <kveranst knr="1" knrlfnd="3" von="2005-04-10" bis="2005-04-11" ort="Paris" plaetze="3">
+    <besucht pnr="110" />
+  </kveranst>
+  <kveranst knr="2" knrlfnd="1" von="2003-10-09" bis="2003-10-11" ort="Wien" plaetze="4" pnr="104">
+    <besucht pnr="105" bezahlt="2003-10-15" />
+    <besucht pnr="109" bezahlt="2003-11-03" />
+    <besucht pnr="112" bezahlt="2003-10-28" />
+    <besucht pnr="116" />
+  </kveranst>
+  <kveranst knr="3" knrlfnd="1" von="2003-11-17" bis="2003-11-17" ort="Moskau" plaetze="3" pnr="103">
+    <besucht pnr="101" />
+    <besucht pnr="109" />
+    <besucht pnr="117" bezahlt="2003-11-20" />
+  </kveranst>
+  <kveranst knr="4" knrlfnd="1" von="2004-01-12" bis="2004-01-13" ort="Wien" plaetze="3" pnr="116">
+    <besucht pnr="102" bezahlt="2004-01-20" />
+    <besucht pnr="107" bezahlt="2004-02-01" />
+    <besucht pnr="111" />
+  </kveranst>
+  <kveranst knr="4" knrlfnd="2" von="2004-03-28" bis="2004-03-29" ort="Wien" plaetze="4" pnr="104">
+    <besucht pnr="106" bezahlt="2004-04-07" />
+    <besucht pnr="109" bezahlt="2004-04-15" />
+  </kveranst>
+  <kveranst knr="5" knrlfnd="1" von="2004-05-18" bis="2004-05-20" ort="Paris" plaetze="3" pnr="101">
+    <besucht pnr="103" />
+    <besucht pnr="109" bezahlt="2004-06-07" />
+  </kveranst>
+  <kveranst knr="5" knrlfnd="2" von="2004-09-23" bis="2004-09-26" ort="Wien" plaetze="2" pnr="101">
+    <besucht pnr="115" bezahlt="2004-10-07" />
+    <besucht pnr="116" />
+  </kveranst>
+  <kveranst knr="5" knrlfnd="3" von="2005-03-30" bis="2005-04-01" ort="Rom" plaetze="3">
+  </kveranst>
+  <kveranst knr="7" knrlfnd="1" von="2005-03-09" bis="2005-03-13" ort="Wien" plaetze="5" pnr="103">
+    <besucht pnr="109" bezahlt="2005-03-20" />
+    <besucht pnr="113" />
+    <besucht pnr="117" bezahlt="2005-04-08" />
+  </kveranst>
+  <kveranst knr="7" knrlfnd="2" von="2005-09-14" bis="2005-09-18" ort="München" plaetze="4" pnr="116">
+  </kveranst>
+
+</schulungsfirma>
