@@ -66,15 +66,18 @@
     <besucht pnr="109" />
     <besucht pnr="114" />
   </kveranst>
+
   <kveranst knr="1" knrlfnd="2" von="2004-06-23" bis="2004-06-24" ort="Moskau" plaetze="4" pnr="114">
     <besucht pnr="110" bezahlt="2004-07-01" />
     <besucht pnr="112" bezahlt="2004-07-03" />
     <besucht pnr="113" bezahlt="2004-07-20" />
     <besucht pnr="116" />
   </kveranst>
+
   <kveranst knr="1" knrlfnd="3" von="2005-04-10" bis="2005-04-11" ort="Paris" plaetze="3">
     <besucht pnr="110" />
   </kveranst>
+  
   <kveranst knr="2" knrlfnd="1" von="2003-10-09" bis="2003-10-11" ort="Wien" plaetze="4" pnr="104">
     <besucht pnr="105" bezahlt="2003-10-15" />
     <besucht pnr="109" bezahlt="2003-11-03" />

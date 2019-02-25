@@ -1,0 +1,42 @@
+default namespace = ""
+
+start =
+  element schulungsfirma {
+    element person {
+      attribute fname { xsd:string },
+      attribute land { xsd:string },
+      attribute ort { xsd:string },
+      attribute pnr { xsd:integer },
+      attribute vname { text },
+      element referent {
+        attribute gebdat { xsd:date },
+        attribute seit { xsd:date },
+        attribute titel { xsd:string }?
+      }?,
+      element besucht {
+        attribute bezahlt { xsd:date }?,
+        attribute knr { xsd:integer },
+        attribute knrlfnd { xsd:integer }
+      }*
+    }+,
+    element kurs {
+      attribute bezeichn { xsd:string },
+      attribute knr { xsd:integer },
+      attribute preis { xsd:decimal },
+      attribute tage { xsd:integer },
+      element setztvor {
+        attribute knrvor { xsd:integer }
+      }*,
+      element geeignet {
+        attribute pnr { xsd:integer }
+      }+,
+      element kveranst {
+        attribute bis { xsd:date },
+        attribute knrlfnd { xsd:integer },
+        attribute ort { xsd:string },
+        attribute plaetze { xsd:integer },
+        attribute referent { xsd:integer }?,
+        attribute von { xsd:date }
+      }*
+    }+
+  }
