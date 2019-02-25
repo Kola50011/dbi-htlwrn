@@ -40,32 +40,27 @@
     <geeignet knr="7" />
   </person>
   <person pnr="117" fname="Schönberg" vname="Arnold" ort="Wien" land="A" />
-
   <kurs knr="1" bezeichn="Notenkunde" tage="2" preis="1400.0000">
-    <setztvor knr="1"/>
+    <setztvor knr="1" />
   </kurs>
   <kurs knr="2" bezeichn="Harmonielehre" tage="3" preis="2000.0000">
-    <setztvor knr="1"/>
+    <setztvor knr="1" />
   </kurs>
   <kurs knr="3" bezeichn="Rhythmik" tage="1" preis="700.0000">
-    <setztvor knr="1"/>
+    <setztvor knr="1" />
   </kurs>
-  <kurs knr="4" bezeichn="Instrumentenkunde" tage="2" preis="1500.0000">
-  </kurs>
+  <kurs knr="4" bezeichn="Instrumentenkunde" tage="2" preis="1500.0000"></kurs>
   <kurs knr="5" bezeichn="Dirigieren" tage="3" preis="1900.0000">
-    <setztvor knr="2"/>
-    <setztvor knr="3"/>
-    <setztvor knr="4"/>
+    <setztvor knr="2" />
+    <setztvor knr="3" />
+    <setztvor knr="4" />
   </kurs>
-  <kurs knr="6" bezeichn="Musikgeschichte" tage="2" preis="1400.0000">
-  </kurs>
+  <kurs knr="6" bezeichn="Musikgeschichte" tage="2" preis="1400.0000"></kurs>
   <kurs knr="7" bezeichn="Komposition" tage="4" preis="3300.0000">
-    <setztvor knr="5"/>
-    <setztvor knr="6"/>
+    <setztvor knr="5" />
+    <setztvor knr="6" />
   </kurs>
-  <kurs knr="8" bezeichn="Violine für Anfänger" tage="9" preis="3300.0000">
-  </kurs>
-
+  <kurs knr="8" bezeichn="Violine für Anfänger" tage="9" preis="3300.0000"></kurs>
   <kveranst knr="1" knrlfnd="1" von="2003-04-07" bis="2003-04-08" ort="Wien" plaetze="3" pnr="103">
     <besucht pnr="108" bezahlt="2003-05-01" />
     <besucht pnr="109" />
@@ -108,14 +103,11 @@
     <besucht pnr="115" bezahlt="2004-10-07" />
     <besucht pnr="116" />
   </kveranst>
-  <kveranst knr="5" knrlfnd="3" von="2005-03-30" bis="2005-04-01" ort="Rom" plaetze="3">
-  </kveranst>
+  <kveranst knr="5" knrlfnd="3" von="2005-03-30" bis="2005-04-01" ort="Rom" plaetze="3"></kveranst>
   <kveranst knr="7" knrlfnd="1" von="2005-03-09" bis="2005-03-13" ort="Wien" plaetze="5" pnr="103">
     <besucht pnr="109" bezahlt="2005-03-20" />
     <besucht pnr="113" />
     <besucht pnr="117" bezahlt="2005-04-08" />
   </kveranst>
-  <kveranst knr="7" knrlfnd="2" von="2005-09-14" bis="2005-09-18" ort="München" plaetze="4" pnr="116">
-  </kveranst>
-
+  <kveranst knr="7" knrlfnd="2" von="2005-09-14" bis="2005-09-18" ort="München" plaetze="4" pnr="116"></kveranst>
 </schulungsfirma>

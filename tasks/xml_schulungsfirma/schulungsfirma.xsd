@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="schulungsfirma">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="person"/>
+        <xs:element maxOccurs="unbounded" ref="kurs"/>
+        <xs:element maxOccurs="unbounded" ref="kveranst"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="person">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element minOccurs="0" ref="referent"/>
+        <xs:element maxOccurs="unbounded" ref="geeignet"/>
+      </xs:sequence>
+      <xs:attribute name="fname" use="required" type="xs:string"/>
+      <xs:attribute name="land" use="required" type="xs:string"/>
+      <xs:attribute name="ort" use="required" type="xs:string"/>
+      <xs:attribute name="pnr" use="required" type="xs:positiveInteger"/>
+      <xs:attribute name="vname" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="referent">
+    <xs:complexType>
+      <xs:attribute name="gebdat" use="required" type="xs:date"/>
+      <xs:attribute name="seit" use="required" type="xs:date"/>
+      <xs:attribute name="titel" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="geeignet">
+    <xs:complexType>
+      <xs:attribute name="knr" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="setztvor"/>
+      </xs:sequence>
+      <xs:attribute name="bezeichn" use="required"/>
+      <xs:attribute name="knr" use="required" type="xs:positiveInteger"/>
+      <xs:attribute name="preis" use="required" type="xs:decimal"/>
+      <xs:attribute name="tage" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="setztvor">
+    <xs:complexType>
+      <xs:attribute name="knr" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kveranst">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="besucht"/>
+      </xs:sequence>
+      <xs:attribute name="bis" use="required" type="xs:date"/>
+      <xs:attribute name="knr" use="required" type="xs:positiveInteger"/>
+      <xs:attribute name="knrlfnd" use="required" type="xs:positiveInteger"/>
+      <xs:attribute name="ort" use="required" type="xs:string"/>
+      <xs:attribute name="plaetze" use="required" type="xs:positiveInteger"/>
+      <xs:attribute name="pnr" type="xs:positiveInteger"/>
+      <xs:attribute name="von" use="required" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="besucht">
+    <xs:complexType>
+      <xs:attribute name="bezahlt" type="xs:date"/>
+      <xs:attribute name="pnr" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
