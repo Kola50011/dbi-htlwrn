@@ -7,3 +7,6 @@ java -jar ../../tools/trang/trang.jar -I rnc -O rng schulungsfirma.rnc schulungs
 java -jar  ../../tools/trang/trang.jar -I rnc -O xsd schulungsfirma.rnc schulungsfirma.xsd
 
 java -jar ../../tools/jing/bin/jing.jar -t -c schulungsfirma.rnc schulungsfirma.xml
+
+xsltproc -o kurslisten.xml schulungsfirma.xslt schulungsfirma.xml
+xsltproc -o kurslisten.html kurslisten.xslt kurslisten.xml
