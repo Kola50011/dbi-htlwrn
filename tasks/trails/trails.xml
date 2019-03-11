@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<park name="Lincoln Natural Forest">
+    <trail dist="3400" climb="medium">Canyon Trail</trail>
+    <trail climb="easy" dist="1200">Pickle Madden Trail</trail>
+</park>

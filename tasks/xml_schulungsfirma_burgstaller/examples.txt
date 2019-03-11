@@ -1,0 +1,39 @@
+4
+Welche Kurse (KNr) haben einen Kurs als vorraussetzung?
+//kurs[setztvor]/@knr
+
+11
+Alle Kursveranstaltungen (KNr, Bezeichnung, KNrLfnd, von) bei denen noch kein Referent festgelegt ist
+//kveranst[not(@referent)]
+
+18
+Welche Personen (FName) haben den Kurs Nr 1 und den Kurs Nr 5 besucht?
+/schulungsfirma/person[besucht/@knr = 1][besucht/@knr = 5]
+
+34
+Welche Kurse (Bezeichnung) setzen keine Kurse voraus?
+//kurs[not(setztvor)]/@bezeichn
+
+47
+ Welche Personen besuchen keinen Kurs?
+//person[not(besucht)]
+
+<kurslisten>
+{
+  for $kurs in //kurs
+  for $kveranst in $kurs/kveranst
+  return  <kurstermin
+            name="{$kurs/@bezeichn}"
+            datum="{$kveranst/@von}">
+          {
+            for $person in //person/besucht[@knr = $kurs/@knr]
+                              [@knrlfnd = $kveranst/@knrlfnd]/..
+           order by $person/@fname, $person/@vname
+           return <teilnehmer
+                     fname="{$person/@fname}"
+                     vname="{$person/@vname}">
+                  </teilnehmer>
+          }
+          </kurstermin>
+}
+</kurslisten>

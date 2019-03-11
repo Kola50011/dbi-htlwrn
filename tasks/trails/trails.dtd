@@ -1,0 +1,12 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT park (trail)+>
+<!ATTLIST park
+  xmlns CDATA #FIXED ''
+  name CDATA #REQUIRED>
+
+<!ELEMENT trail (#PCDATA)>
+<!ATTLIST trail
+  xmlns CDATA #FIXED ''
+  climb NMTOKEN #REQUIRED
+  dist CDATA #REQUIRED>

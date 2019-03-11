@@ -1,0 +1,11 @@
+default namespace = ""
+
+start =
+  element park {
+    attribute name { text },
+    element trail {
+      attribute climb { xsd:NCName },
+      attribute dist { xsd:integer },
+      text
+    }+
+  }
