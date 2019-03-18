@@ -1,0 +1,13 @@
+default namespace = ""
+
+start =
+  element kurslisten {
+    element kurstermin {
+      attribute bezeichn { xsd:string },
+      attribute von { xsd:date },
+      element person {
+        attribute fname { xsd:string },
+        attribute vname { text }
+      }*
+    }+
+  }

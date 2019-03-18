@@ -1,0 +1,5 @@
+// 18
+
+select * from schulungsfirma
+
+select array person.pnr for person in person end from schulungsfirma
