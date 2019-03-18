@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="kurslisten">
+      <oneOrMore>
+        <element name="kurstermin">
+          <attribute name="bezeichn">
+            <data type="string"/>
+          </attribute>
+          <attribute name="von">
+            <data type="date"/>
+          </attribute>
+          <zeroOrMore>
+            <element name="person">
+              <attribute name="fname">
+                <data type="string"/>
+              </attribute>
+              <attribute name="vname"/>
+            </element>
+          </zeroOrMore>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>

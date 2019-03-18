@@ -1,0 +1,17 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT kurslisten (kurstermin)+>
+<!ATTLIST kurslisten
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT kurstermin (person)*>
+<!ATTLIST kurstermin
+  xmlns CDATA #FIXED ''
+  bezeichn CDATA #REQUIRED
+  von NMTOKEN #REQUIRED>
+
+<!ELEMENT person EMPTY>
+<!ATTLIST person
+  xmlns CDATA #FIXED ''
+  fname CDATA #REQUIRED
+  vname CDATA #REQUIRED>
