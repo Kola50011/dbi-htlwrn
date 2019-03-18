@@ -10,3 +10,6 @@ java -jar ../../tools/jing/bin/jing.jar -t -c schulungsfirma.rnc schulungsfirma.
 
 xsltproc -o kurslisten.xml schulungsfirma.xslt schulungsfirma.xml
 xsltproc -o kurslisten.html kurslisten.xslt kurslisten.xml
+
+sed -i '2i <?xml-stylesheet type="text/xsl" href="kurslisten.xslt"?>' kurslisten.xml
+google-chrome --allow-file-access-from-files kurslisten.xml
