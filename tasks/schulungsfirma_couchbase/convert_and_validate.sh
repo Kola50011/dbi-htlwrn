@@ -1,0 +1,1 @@
+xsltproc -o inserts.json schulungsfirma.xslt schulungsfirma.xml

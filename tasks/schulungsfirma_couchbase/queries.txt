@@ -1,5 +1,14 @@
-// 18
+// 34
+select *
+  from kurse
+ where kurse.setztvor is missing
 
-select * from schulungsfirma
+// 47
+select *
+  from personen
+ where besucht is missing
 
-select array person.pnr for person in person end from schulungsfirma
+// 4
+select *
+  from kurse
+ where setztvor is not null

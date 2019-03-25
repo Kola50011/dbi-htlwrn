@@ -1,33 +1,289 @@
 {
-    "schulungsfirma": {
-        "person": [
-            {
-                "pnr": "101",
-                "vname": "Johann Sebastian",
-                "fname": "Bach",
-                "ort": "Leipzig",
-                "land": "D",
-                "referent": {
-                    "gebdat": "1935-03-21",
-                    "seit": "1980-01-01"
+    "people": {
+        "101": {
+            "pnr": "101",
+            "vname": "Johann Sebastian",
+            "fname": "Bach",
+            "ort": "Leipzig",
+            "land": "D",
+            "referent": {
+                "gebdat": "1935-03-21",
+                "seit": "1980-01-01"
+            },
+            "besucht": {
+                "knr": "3",
+                "knrlfnd": "1"
+            }
+        },
+        "102": {
+            "pnr": "102",
+            "vname": "Georg Friedrich",
+            "fname": "Händel",
+            "ort": "London",
+            "land": "GB",
+            "besucht": {
+                "knr": "4",
+                "knrlfnd": "1",
+                "bezahlt": "2004-01-20"
+            }
+        },
+        "103": {
+            "pnr": "103",
+            "vname": "Joseph",
+            "fname": "Haydn",
+            "ort": "Wien",
+            "land": "A",
+            "referent": {
+                "gebdat": "1932-04-01",
+                "seit": "1991-01-01"
+            },
+            "besucht": {
+                "knr": "5",
+                "knrlfnd": "1"
+            }
+        },
+        "104": {
+            "pnr": "104",
+            "vname": "Wolfgang Amadeus",
+            "fname": "Mozart",
+            "ort": "Salzburg",
+            "land": "A",
+            "referent": {
+                "gebdat": "1956-01-27",
+                "seit": "1985-07-01"
+            }
+        },
+        "105": {
+            "pnr": "105",
+            "vname": "Ludwig van",
+            "fname": "Beethoven",
+            "ort": "Wien",
+            "land": "A",
+            "besucht": {
+                "knr": "2",
+                "knrlfnd": "1",
+                "bezahlt": "2003-10-15"
+            }
+        },
+        "106": {
+            "pnr": "106",
+            "vname": "Franz",
+            "fname": "Schubert",
+            "ort": "Wien",
+            "land": "A",
+            "besucht": {
+                "knr": "4",
+                "knrlfnd": "2",
+                "bezahlt": "2004-04-07"
+            }
+        },
+        "107": {
+            "pnr": "107",
+            "vname": "Hector",
+            "fname": "Berlioz",
+            "ort": "Paris",
+            "land": "F",
+            "besucht": {
+                "knr": "4",
+                "knrlfnd": "1",
+                "bezahlt": "2004-02-01"
+            }
+        },
+        "108": {
+            "pnr": "108",
+            "vname": "Franz",
+            "fname": "Liszt",
+            "ort": "Wien",
+            "land": "A",
+            "besucht": {
+                "knr": "1",
+                "knrlfnd": "1",
+                "bezahlt": "2003-05-01"
+            }
+        },
+        "109": {
+            "pnr": "109",
+            "vname": "Richard",
+            "fname": "Wagner",
+            "ort": "München",
+            "land": "D",
+            "besucht": [
+                {
+                    "knr": "1",
+                    "knrlfnd": "1"
                 },
-                "besucht": {
+                {
                     "knr": "3",
                     "knrlfnd": "1"
-                }
-            },
-            {
-                "pnr": "102",
-                "vname": "Georg Friedrich",
-                "fname": "Händel",
-                "ort": "London",
-                "land": "GB",
-                "besucht": {
+                },
+                {
                     "knr": "4",
+                    "knrlfnd": "2",
+                    "bezahlt": "2004-04-15"
+                },
+                {
+                    "knr": "2",
                     "knrlfnd": "1",
-                    "bezahlt": "2004-01-20"
+                    "bezahlt": "2003-11-03"
+                },
+                {
+                    "knr": "5",
+                    "knrlfnd": "1",
+                    "bezahlt": "2004-06-07"
+                },
+                {
+                    "knr": "7",
+                    "knrlfnd": "1",
+                    "bezahlt": "2005-03-20"
                 }
+            ]
+        },
+        "110": {
+            "pnr": "110",
+            "vname": "Giuseppe",
+            "fname": "Verdi",
+            "ort": "Busseto",
+            "land": "I",
+            "besucht": [
+                {
+                    "knr": "1",
+                    "knrlfnd": "3"
+                },
+                {
+                    "knr": "1",
+                    "knrlfnd": "2",
+                    "bezahlt": "2004-07-01"
+                }
+            ]
+        },
+        "111": {
+            "pnr": "111",
+            "vname": "Anton",
+            "fname": "Bruckner",
+            "ort": "Linz",
+            "land": "A",
+            "referent": {
+                "gebdat": "1924-09-04",
+                "seit": "1990-07-01",
+                "-titel": "Mag"
             },
+            "besucht": {
+                "knr": "4",
+                "knrlfnd": "1"
+            }
+        },
+        "112": {
+            "pnr": "112",
+            "vname": "Johannes",
+            "fname": "Brahms",
+            "ort": "Wien",
+            "land": "A",
+            "besucht": [
+                {
+                    "knr": "1",
+                    "knrlfnd": "2",
+                    "bezahlt": "2004-07-03"
+                },
+                {
+                    "knr": "2",
+                    "knrlfnd": "1",
+                    "bezahlt": "2003-10-28"
+                }
+            ]
+        },
+        "113": {
+            "pnr": "113",
+            "vname": "Georges",
+            "fname": "Bizet",
+            "ort": "Paris",
+            "land": "F",
+            "besucht": [
+                {
+                    "knr": "1",
+                    "knrlfnd": "2",
+                    "bezahlt": "2004-07-20"
+                },
+                {
+                    "knr": "7",
+                    "knrlfnd": "1"
+                }
+            ]
+        },
+        "114": {
+            "pnr": "114",
+            "vname": "Peter",
+            "fname": "Tschaikowskij",
+            "ort": "Moskau",
+            "land": "RUS",
+            "referent": {
+                "gebdat": "1940-04-25",
+                "seit": "1980-07-01"
+            },
+            "besucht": {
+                "knr": "1",
+                "knrlfnd": "1"
+            }
+        },
+        "115": {
+            "pnr": "115",
+            "vname": "Giacomo",
+            "fname": "Puccini",
+            "ort": "Mailand",
+            "land": "I",
+            "besucht": {
+                "knr": "5",
+                "knrlfnd": "2",
+                "bezahlt": "2004-10-07"
+            }
+        },
+        "116": {
+            "pnr": "116",
+            "vname": "Richard",
+            "fname": "Strauss",
+            "ort": "München",
+            "land": "D",
+            "referent": {
+                "gebdat": "1964-06-11",
+                "seit": "1994-01-01",
+                "-titel": "Dr"
+            },
+            "besucht": [
+                {
+                    "knr": "5",
+                    "knrlfnd": "2"
+                },
+                {
+                    "knr": "1",
+                    "knrlfnd": "2"
+                },
+                {
+                    "knr": "2",
+                    "knrlfnd": "1"
+                }
+            ]
+        },
+        "117": {
+            "pnr": "117",
+            "vname": "Arnold",
+            "fname": "Schönberg",
+            "ort": "Wien",
+            "land": "A",
+            "besucht": [
+                {
+                    "knr": "3",
+                    "knrlfnd": "1",
+                    "bezahlt": "2003-11-20"
+                },
+                {
+                    "knr": "7",
+                    "knrlfnd": "1",
+                    "bezahlt": "2005-04-08"
+                }
+            ]
+        }
+    },
+    "schulungsfirma": {
+        "person": [
             {
                 "pnr": "103",
                 "vname": "Joseph",
