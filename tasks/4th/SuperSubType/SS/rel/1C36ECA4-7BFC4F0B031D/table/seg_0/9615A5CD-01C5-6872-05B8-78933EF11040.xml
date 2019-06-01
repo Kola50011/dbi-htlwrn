@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9615A5CD-01C5-6872-05B8-78933EF11040" name="Course">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>A1AC94D4-E95D-6EDA-C26E-DD1BF9F16E8D</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CourseID" id="1026DA65-905B-5F8B-A353-790C56C589FA">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>000BE32D-A4BD-9862-64C7-7B46BA60947C</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="C515F778-7AE3-3851-5099-0A1F8B273A6C">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>C4AED6C5-4F2A-2DAA-F6E7-9F58448DF547</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StartDate" id="50BEECF4-85A8-D929-11EB-C861783C8530">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>F58F0C6C-AE0A-AA76-3DD0-68476B8537B8</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CourseInstructor_PersonID" id="B55EE2DB-D0C7-36FE-4816-6E6F7C40E8D2">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>4E0E2069-BBE4-7D1F-90C4-5E90C89A54A5</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A749874-44E9-80A1-CA1E-2193CECFE3FE" referredColumn="D058E4CA-420A-A668-A6A0-6739C0034BB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4F53A38-4424-6DA7-9546-8EFC0C93ED47" name="Course_CourseInstructor_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>316CC804-821F-80D4-94C0-3D5361B790A8</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55EE2DB-D0C7-36FE-4816-6E6F7C40E8D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

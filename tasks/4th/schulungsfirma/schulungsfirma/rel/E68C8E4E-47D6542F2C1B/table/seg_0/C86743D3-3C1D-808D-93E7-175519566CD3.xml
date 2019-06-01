@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C86743D3-3C1D-808D-93E7-175519566CD3" name="referent">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>B0385544-4BC0-7CEC-BDD6-F8A8DB52D83B</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_pnr" id="F56929CF-5C09-5F98-AD3C-9A01039C7F30">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>0304C158-9B68-2FFB-5BED-AC1CC7A3E8C8</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B90AE06-609F-BF6A-0ABD-341BA42332FD" referredColumn="8D49B72B-F33E-2A1A-06BE-690A03739358"/>
+</associations>
+</Column>
+<Column name="gebdat" id="B8A39FD1-EBAC-4A7E-0CD9-15638F7CDC40">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>8860DE08-595D-BB4D-131D-C4A0C9009B28</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seit" id="F9D2BA8E-D95F-882D-B27D-87DFDE74A360">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>640FEE12-BB8A-8CB6-8C40-126099239576</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titel" id="E2C51185-56E1-0317-89C0-1096BC411805">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>3E56C544-A512-B5B4-2BC6-814F728221E9</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06572B25-1B14-7F00-EA20-6DA30676ABDE" name="referent_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>93CB32F5-F658-3208-977E-B57C2B1E1CA6</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F56929CF-5C09-5F98-AD3C-9A01039C7F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6019CEDA-A530-506F-BAB7-8DD7DCDF466C" name="referent_person_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>13D42977-3A75-3EE0-0116-C1B2A62D6353</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F56929CF-5C09-5F98-AD3C-9A01039C7F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

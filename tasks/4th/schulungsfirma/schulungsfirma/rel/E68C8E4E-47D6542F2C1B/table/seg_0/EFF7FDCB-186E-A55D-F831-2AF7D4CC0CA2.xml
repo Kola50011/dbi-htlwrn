@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFF7FDCB-186E-A55D-F831-2AF7D4CC0CA2" name="kveranst">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>5123769E-F658-9F8F-99E1-2591BCC001CD</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kurs_knr" id="E01F7E9C-9DC2-D552-90BA-C4A19AC1D6A6">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>9356DF28-70F0-65DA-DBF5-619C80617BB9</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B4A1130-8DF7-F465-6550-A8EA8B618189" referredColumn="8CD8A29A-0275-BAC9-B380-16D03A324229"/>
+</associations>
+</Column>
+<Column name="knrlfnd" id="27F8361E-D6F5-AEBB-28E8-322708262ADA">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>B8A18831-8B0B-3FB9-0142-34F83105323D</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="von" id="D4D1D214-8B5D-CDE1-48B1-597230DAF2F3">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>5CB934D4-4136-5AFB-82D4-31AE28B69E4B</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bis" id="CCA4EF71-E85C-1D1E-38C5-3BB1F9A700DA">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>7913E4EC-9057-F32D-D88F-0D1304D364A1</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ort" id="57B3A831-2408-BEDD-7665-D559EFAEFFD0">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>955998F5-1E02-1ABA-16E8-DB7F489496FC</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plaetze" id="86380EBD-D538-75EC-BF11-9B247285128E">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>62D77504-308B-178F-7F0E-7FBEE62F60CF</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referent_pnr" id="48388197-59CD-AD98-10C4-8D16094010B5">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>4F930DD4-3D37-5D09-C230-1A9AF36C1A5E</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2573CF2-F0B4-A0A8-5351-F4455C12831D" referredColumn="F56929CF-5C09-5F98-AD3C-9A01039C7F30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3B9E953-C8F2-8D40-1E61-937D65883CCD" name="kveranst_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>C001FF2E-41BE-37A8-6FD8-822F2D2FA899</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27F8361E-D6F5-AEBB-28E8-322708262ADA"/>
+<colUsage columnID="E01F7E9C-9DC2-D552-90BA-C4A19AC1D6A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE5D79F5-064A-00D3-40A9-2F201D0EECF0" name="kveranst_kurs_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>2A8A3E3A-DEFE-43D5-9B95-442FC33FC012</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E01F7E9C-9DC2-D552-90BA-C4A19AC1D6A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F4A94C-0EA5-F672-4444-8B5DD84D5F49" name="kveranst_referent_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>4DCB5544-C25E-7928-3CB1-7A37655A4D68</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48388197-59CD-AD98-10C4-8D16094010B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

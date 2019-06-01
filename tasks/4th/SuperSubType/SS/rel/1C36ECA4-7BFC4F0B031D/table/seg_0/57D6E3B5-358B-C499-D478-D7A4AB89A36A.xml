@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57D6E3B5-358B-C499-D478-D7A4AB89A36A" name="CourseInstructor">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>004E1D05-8725-1D6B-DBFD-19D7245C984B</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PersonID" id="D058E4CA-420A-A668-A6A0-6739C0034BB8">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>370321A2-56D9-36DE-65CF-ABAEF0D97C31</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="991F7655-AF3A-D638-DDE0-0D1CED98E707">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>1C28ABC4-45EA-D188-3238-D5139EA5C242</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="EC9EC70F-E2B5-0BC3-A8B9-23CB66474CC0">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>6223C73D-248E-7185-949C-6CEEF56A2512</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HiringDate" id="3BBD6B6B-21BD-0E71-D947-A00D1804C487">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>071B3C5E-C796-26E3-12AC-1FC62A4CC875</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="35ECCF0A-699E-6C21-0DB5-92E653F31E44">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>8EA6172A-BCAE-B28D-924C-3DD09F9FC099</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,12,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeePerHour" id="18495E93-3BC6-E7BD-109A-C12BC5E01383">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>3C694CDB-66AC-7CD8-A736-6536BDD62115</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="755A7DBB-B032-A5AC-B1B0-CC4BBF4DBA04" name="CourseInstructor_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-10-03 11:42:48 UTC</createdTime>
+<generatorID>8F90D7BA-9006-69C8-5FF6-1E196DB11486</generatorID>
+<ownerDesignName>SS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D058E4CA-420A-A668-A6A0-6739C0034BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

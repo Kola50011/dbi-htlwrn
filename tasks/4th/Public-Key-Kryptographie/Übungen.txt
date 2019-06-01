@@ -1,0 +1,6 @@
+p: prime1
+q: prime2
+n: p * q
+z: (p-1) * (q-1)
+e: exponent1
+d: exponent2

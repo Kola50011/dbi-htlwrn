@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFB6DC42-DABA-EFCA-485D-73525772A505" name="geeignet">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kurs_knr" id="1E8FE073-DCBE-BB07-F128-23789A1B0904">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7ABCC59-6EE9-3FD0-5F6F-979BA8C57BD5" referredColumn="8CD8A29A-0275-BAC9-B380-16D03A324229"/>
+</associations>
+</Column>
+<Column name="referent_pnr" id="DE091047-05A9-BCA1-CFC4-36E2117EB4F2">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8523E9D3-73B8-FD4A-545B-0DAB42A7F8A2" referredColumn="F56929CF-5C09-5F98-AD3C-9A01039C7F30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61C6671B-28CF-87AE-AB14-2D384880E6AB" name="geeignet_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE091047-05A9-BCA1-CFC4-36E2117EB4F2"/>
+<colUsage columnID="1E8FE073-DCBE-BB07-F128-23789A1B0904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9669A5AF-0C54-0DA8-3961-55E4EC30A77C" name="geeignet_referent_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>02EB1D80-563A-9FDC-1FA3-991106E6F9F8</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE091047-05A9-BCA1-CFC4-36E2117EB4F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D929166-F8F5-6978-8D7C-CC8958AEF5E4" name="geeignet_kurs_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>02EB1D80-563A-9FDC-1FA3-991106E6F9F8</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E8FE073-DCBE-BB07-F128-23789A1B0904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

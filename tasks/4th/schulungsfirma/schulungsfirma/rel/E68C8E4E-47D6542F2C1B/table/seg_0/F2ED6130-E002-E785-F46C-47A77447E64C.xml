@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2ED6130-E002-E785-F46C-47A77447E64C" name="kurs">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>E5705AD9-0A78-B105-328B-964BA55A596E</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="knr" id="8CD8A29A-0275-BAC9-B380-16D03A324229">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>873C050C-FED1-968F-1906-05C82048A4D5</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bezeichn" id="11F97CCA-39E6-645B-0C4E-4089FEFC6BDF">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>B6AE5F12-E484-CCC0-D765-3447EC781170</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tage" id="7F380A04-149F-A919-9B0E-87D6FE84C159">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>438C314D-3B0F-02D1-3791-93171A85CA25</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preis" id="C7A6BC55-F50E-5FF5-9744-3AD6232C2C53">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>6382022A-8BBE-6F61-4029-A0A1657B1D17</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BC5634B-D643-091C-D8D9-EA739CFB0D99" name="kurs_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>5BB18A82-92C4-9522-53D6-23782B3FFDC1</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD8A29A-0275-BAC9-B380-16D03A324229"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

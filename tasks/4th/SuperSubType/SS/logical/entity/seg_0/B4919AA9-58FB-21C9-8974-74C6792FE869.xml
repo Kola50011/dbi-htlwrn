@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4919AA9-58FB-21C9-8974-74C6792FE869" name="Customer">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-28 06:59:26 UTC</createdTime>
+<ownerDesignName>SS</ownerDesignName>
+<engineerTo>
+<item key="1C36ECA4-504E-34B7-787E-7BFC4F0B031D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EC62092C-3AF3-6849-988C-6C5C0A92B955</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Discount" id="E69C63D0-8929-9276-009B-1D58A7C9CF06">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-28 06:59:52 UTC</createdTime>
+<ownerDesignName>SS</ownerDesignName>
+<engineerTo>
+<item key="1C36ECA4-504E-34B7-787E-7BFC4F0B031D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TermsOfPayment" id="8DC4EBAD-D3A2-6601-F92C-057665AC83E5">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-28 06:59:41 UTC</createdTime>
+<ownerDesignName>SS</ownerDesignName>
+<engineerTo>
+<item key="1C36ECA4-504E-34B7-787E-7BFC4F0B031D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

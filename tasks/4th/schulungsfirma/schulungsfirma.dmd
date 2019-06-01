@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="schulungsfirma" id="54F96C48-107D-53FB-692F-2F789DE49E0A" version="3.5">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 05:58:37 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>54F96C48-107D-53FB-692F-2F789DE49E0A</designId>
+</OSDM_Design>

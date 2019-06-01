@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5123769E-F658-9F8F-99E1-2591BCC001CD" name="kveranst">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:11:14 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="knr" id="9356DF28-70F0-65DA-DBF5-619C80617BB9">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 17:43:18 UTC</createdTime>
+<generatorID>2A8A3E3A-DEFE-43D5-9B95-442FC33FC012</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<referedAttribute>873C050C-FED1-968F-1906-05C82048A4D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="knrlfnd" id="B8A18831-8B0B-3FB9-0142-34F83105323D">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:11:24 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="von" id="5CB934D4-4136-5AFB-82D4-31AE28B69E4B">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:11:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bis" id="7913E4EC-9057-F32D-D88F-0D1304D364A1">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:12:09 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ort" id="955998F5-1E02-1ABA-16E8-DB7F489496FC">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:12:18 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plaetze" id="62D77504-308B-178F-7F0E-7FBEE62F60CF">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:12:33 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pnr" id="4F930DD4-3D37-5D09-C230-1A9AF36C1A5E">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 05:59:19 UTC</createdTime>
+<generatorID>4DCB5544-C25E-7928-3CB1-7A37655A4D68</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0304C158-9B68-2FFB-5BED-AC1CC7A3E8C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C001FF2E-41BE-37A8-6FD8-822F2D2FA899" name="kveranst PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:11:33 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8A18831-8B0B-3FB9-0142-34F83105323D</attributeRef>
+<attributeRef>9356DF28-70F0-65DA-DBF5-619C80617BB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="lt" id="C8082E0D-7FB4-9AF8-2E90-0066C6392097" version="3.5">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 05:58:11 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C8082E0D-7FB4-9AF8-2E90-0066C6392097</designId>
+</OSDM_Design>

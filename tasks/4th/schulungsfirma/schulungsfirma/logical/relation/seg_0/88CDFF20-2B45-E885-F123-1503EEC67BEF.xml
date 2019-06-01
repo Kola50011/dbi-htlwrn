@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="besucht" directorySegmentName="seg_0" id="88CDFF20-2B45-E885-F123-1503EEC67BEF">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 17:18:12 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DA120FA3-963C-D7DE-B584-378577C8959E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5123769E-F658-9F8F-99E1-2591BCC001CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="bezahlt" id="0ED2EABD-C94F-5123-A107-0CB78A400AF3">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 17:18:33 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

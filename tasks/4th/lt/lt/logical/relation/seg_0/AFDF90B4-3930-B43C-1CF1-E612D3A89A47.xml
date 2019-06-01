@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Liefert" directorySegmentName="seg_0" id="AFDF90B4-3930-B43C-1CF1-E612D3A89A47">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:30:38 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AAE24A65-C1C1-9E62-D0FF-B6F4F6C086D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E3B22E4-FC7D-1ABD-FCDC-C5DFBD34249E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Menge" id="055717A6-01FE-6B08-19C8-E06DE1E313A8">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:33:56 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

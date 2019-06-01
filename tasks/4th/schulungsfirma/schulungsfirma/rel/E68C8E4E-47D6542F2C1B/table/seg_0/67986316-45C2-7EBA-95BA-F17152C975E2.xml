@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67986316-45C2-7EBA-95BA-F17152C975E2" name="setztvor">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kurs_knr" id="56B892A0-AFD0-D456-22AF-BA66E9B13DD6">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9B835CF-BDD5-52CC-BBB2-2B96E8880B79" referredColumn="8CD8A29A-0275-BAC9-B380-16D03A324229"/>
+</associations>
+</Column>
+<Column name="kurs_knr1" id="EE45A2A4-1C05-B31C-3CE7-BCA44EC03F97">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CB756D6-DF1C-1DD5-C2BC-B45B198DFE3C" referredColumn="8CD8A29A-0275-BAC9-B380-16D03A324229"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EF9871A-0BEE-4A61-7B84-87645FD1D524" name="setztvor_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56B892A0-AFD0-D456-22AF-BA66E9B13DD6"/>
+<colUsage columnID="EE45A2A4-1C05-B31C-3CE7-BCA44EC03F97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF1FCD6F-83F9-8D3A-011B-BF03354ABBB3" name="setztvor_kurs_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>5A210F29-476A-9C55-B455-3197D02F4DD3</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56B892A0-AFD0-D456-22AF-BA66E9B13DD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C37A02F-82E1-9694-42C1-B8B20F6E2710" name="setztvor_kurs_FKv1">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>5A210F29-476A-9C55-B455-3197D02F4DD3</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE45A2A4-1C05-B31C-3CE7-BCA44EC03F97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

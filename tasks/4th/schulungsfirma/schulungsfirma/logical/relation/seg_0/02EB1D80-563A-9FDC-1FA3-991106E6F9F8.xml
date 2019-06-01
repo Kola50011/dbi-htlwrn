@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="geeignet" directorySegmentName="seg_0" id="02EB1D80-563A-9FDC-1FA3-991106E6F9F8">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 09:24:17 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B0385544-4BC0-7CEC-BDD6-F8A8DB52D83B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5705AD9-0A78-B105-328B-964BA55A596E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

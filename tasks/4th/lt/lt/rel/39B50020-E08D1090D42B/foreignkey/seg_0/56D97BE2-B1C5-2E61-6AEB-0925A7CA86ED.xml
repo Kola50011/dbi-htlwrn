@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56D97BE2-B1C5-2E61-6AEB-0925A7CA86ED" containerWithKeyObject="0D7699E3-6D10-F195-2EBB-2309B1868832" localFKIndex="D9228AF5-920D-B0C8-9FAB-F6A61161DB9E" name="Liefert_Teil_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>AFDF90B4-3930-B43C-1CF1-E612D3A89A47</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<referredTableLongName>Teil</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>80BAE6C5-077F-F4E7-8CEC-9E5BB32AA513</referredTableID>
+<keyObject>920B975D-DD35-EB61-72D7-0267B24AB966</keyObject>
+<referredKeyID>920B975D-DD35-EB61-72D7-0267B24AB966</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TNR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

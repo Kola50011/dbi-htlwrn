@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="434FC5F8-5F91-B667-30D0-E75E939D79A7">
+<createdBy>Koka</createdBy>
+<modifiedBy>Koka</modifiedBy>
+<createdTime>2017-09-13 06:15:42 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>true</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>true</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0E3B22E4-FC7D-1ABD-FCDC-C5DFBD34249E" otype="Entity" vid="B682DF9F-33C2-DB03-9647-DDBA297C5F13">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="534" y="274" width="177" height="116"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVLegend" oid="9C0CE33B-CAD0-61B6-20ED-3ED026F0C6DC" otype="Legend" vid="70344E88-63BB-BD43-8363-46F327483AFE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="10" y="10" width="232" height="135"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AAE24A65-C1C1-9E62-D0FF-B6F4F6C086D1" otype="Entity" vid="C6DD8443-26C1-0ECD-C3F7-DF59CFB8BB46">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="91" y="288" width="176" height="102"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AFDF90B4-3930-B43C-1CF1-E612D3A89A47" otype="Relation" vid_source="C6DD8443-26C1-0ECD-C3F7-DF59CFB8BB46" vid_target="B682DF9F-33C2-DB03-9647-DDBA297C5F13">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<centerLabel class="oracle.dbtools.crest.model.design.Label">
+<site>1</site>
+<labelBounds x="-107" y="-31" width="106" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</centerLabel>
+<points>
+<point x="267" y="339"/>
+<point x="534" y="339"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="CD34C896-B978-D4F9-20DF-1CA4081A3963">
+<createdBy>Koka</createdBy>
+<modifiedBy>Koka</modifiedBy>
+<createdTime>2017-09-28 07:06:29 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="57D6E3B5-358B-C499-D478-D7A4AB89A36A" otype="Table" vid="403C69E3-7D2B-788C-14AF-D5A3DB959BD5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="182" width="222" height="130"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="71253756-2943-41EB-2A8E-0657C0C696FF" otype="Table" vid="58817DFB-8DAC-C129-3781-26B46054E5BF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="324" y="492" width="253" height="130"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9615A5CD-01C5-6872-05B8-78933EF11040" otype="Table" vid="971FB2E2-C76F-73B2-7723-D798EC0298C0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="299" height="102"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C3ABD9AC-8036-2E07-2375-8FC16CF49ACA" otype="Table" vid="FD7F2527-10DF-3652-2099-7DB45EF9A07C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="492" width="254" height="116"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="0A749874-44E9-80A1-CA1E-2193CECFE3FE" otype="FKIndexAssociation" vid_source="403C69E3-7D2B-788C-14AF-D5A3DB959BD5" vid_target="971FB2E2-C76F-73B2-7723-D798EC0298C0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="131" y="182"/>
+<point x="131" y="122"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

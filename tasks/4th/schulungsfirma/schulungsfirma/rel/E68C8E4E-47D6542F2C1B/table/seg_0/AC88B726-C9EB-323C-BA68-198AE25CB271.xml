@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC88B726-C9EB-323C-BA68-198AE25CB271" name="besucht">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kveranst_knr" id="592EC97E-B16F-3869-4A57-0060075C6D3D">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C77ADD20-4FC9-D2C2-513E-DC378C0B86D1" referredColumn="E01F7E9C-9DC2-D552-90BA-C4A19AC1D6A6"/>
+</associations>
+</Column>
+<Column name="kveranst_knrlfnd" id="7678A7FF-8721-8659-A46E-02C12232C654">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C77ADD20-4FC9-D2C2-513E-DC378C0B86D1" referredColumn="27F8361E-D6F5-AEBB-28E8-322708262ADA"/>
+</associations>
+</Column>
+<Column name="person_pnr" id="85C52B34-87AA-1E9A-2A88-E6DC5911A0C8">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7DFD8E3-1C24-4BDD-B09A-8E3B24C62A01" referredColumn="8D49B72B-F33E-2A1A-06BE-690A03739358"/>
+</associations>
+</Column>
+<Column name="bezahlt" id="CEE97999-BE21-7A49-C3DF-1364F04AB227">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>0ED2EABD-C94F-5123-A107-0CB78A400AF3</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B5EF4EC-D5C0-770D-BC94-2D4D38C447B0" name="besucht_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C52B34-87AA-1E9A-2A88-E6DC5911A0C8"/>
+<colUsage columnID="7678A7FF-8721-8659-A46E-02C12232C654"/>
+<colUsage columnID="592EC97E-B16F-3869-4A57-0060075C6D3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D723A81-A5DC-73EA-4822-205B0F3C652C" name="besucht_person_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:46 UTC</createdTime>
+<generatorID>88CDFF20-2B45-E885-F123-1503EEC67BEF</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C52B34-87AA-1E9A-2A88-E6DC5911A0C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D312D808-961A-BABE-E830-D330881D8EEC" name="besucht_kveranst_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>88CDFF20-2B45-E885-F123-1503EEC67BEF</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7678A7FF-8721-8659-A46E-02C12232C654"/>
+<colUsage columnID="592EC97E-B16F-3869-4A57-0060075C6D3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

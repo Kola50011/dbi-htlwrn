@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80BAE6C5-077F-F4E7-8CEC-9E5BB32AA513" name="Teil">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>0E3B22E4-FC7D-1ABD-FCDC-C5DFBD34249E</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TNR" id="806A46D4-AA5A-A3EF-1E16-D52005ECB76E">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>250027E1-7B8B-B1B4-32C6-4559ADF0C0A9</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TName" id="8F9358E4-6027-050D-C2E3-73B8096D18F4">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>9AC5E17A-2E72-11C3-6E68-E16B09D5EC6F</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Farbe" id="41E03A04-78C1-0A24-E45E-EE63C3EE3318">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>EC576499-0BA0-D9F9-8522-820279BB57D6</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preis" id="8026B622-54F6-13F9-6D38-E6997D6179C1">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>17E1C1F8-AC54-C281-17F9-A6092ECE6161</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadt" id="3435F22A-E0F9-E5CB-E8AF-D19388534F8B">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>B8FAFACD-D3C4-B975-E7D1-5E4F02031A25</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="920B975D-DD35-EB61-72D7-0267B24AB966" name="Teil_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>4EB5B519-07C0-3AB5-869D-81ACCDF01F66</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="806A46D4-AA5A-A3EF-1E16-D52005ECB76E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

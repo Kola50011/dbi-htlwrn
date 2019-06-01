@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E3B22E4-FC7D-1ABD-FCDC-C5DFBD34249E" name="Teil">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:26:26 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TNR" id="250027E1-7B8B-B1B4-32C6-4559ADF0C0A9">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:26:26 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TName" id="9AC5E17A-2E72-11C3-6E68-E16B09D5EC6F">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:26:26 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Farbe" id="EC576499-0BA0-D9F9-8522-820279BB57D6">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:27:01 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preis" id="17E1C1F8-AC54-C281-17F9-A6092ECE6161">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:26:26 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stadt" id="B8FAFACD-D3C4-B975-E7D1-5E4F02031A25">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:26:26 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EB5B519-07C0-3AB5-869D-81ACCDF01F66" name="Lieferant PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:26:26 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<engineerTo>
+<item key="39B50020-53C5-A867-3B36-E08D1090D42B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>250027E1-7B8B-B1B4-32C6-4559ADF0C0A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

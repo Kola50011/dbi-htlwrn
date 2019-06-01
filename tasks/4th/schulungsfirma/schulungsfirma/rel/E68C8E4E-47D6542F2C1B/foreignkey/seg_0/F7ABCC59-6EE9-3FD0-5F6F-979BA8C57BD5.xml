@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7ABCC59-6EE9-3FD0-5F6F-979BA8C57BD5" containerWithKeyObject="AFB6DC42-DABA-EFCA-485D-73525772A505" localFKIndex="6D929166-F8F5-6978-8D7C-CC8958AEF5E4" name="geeignet_kurs_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>02EB1D80-563A-9FDC-1FA3-991106E6F9F8</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<referredTableLongName>kurs</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2ED6130-E002-E785-F46C-47A77447E64C</referredTableID>
+<keyObject>0BC5634B-D643-091C-D8D9-EA739CFB0D99</keyObject>
+<referredKeyID>0BC5634B-D643-091C-D8D9-EA739CFB0D99</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>knr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

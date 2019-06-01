@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3EB2C91-C73B-E9F2-FB25-5C8CA738EF93" name="Lieferant">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:25:41 UTC</createdTime>
+<generatorID>AAE24A65-C1C1-9E62-D0FF-B6F4F6C086D1</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LNR" id="A1D3EB0F-42A3-409A-6E59-1042C60FF912">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:25:42 UTC</createdTime>
+<generatorID>C7CE11E0-9691-C5A9-F64E-B5F2A68128F3</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LName" id="9D53E825-409A-01A8-4A55-0445140C72D7">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:25:42 UTC</createdTime>
+<generatorID>5277D075-98BE-D5AA-E8F9-A3C0B4F7F398</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rabatt" id="2A28B420-4844-AC4A-42A7-BEFE8B6C7B71">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:25:42 UTC</createdTime>
+<generatorID>2BC7B39D-7375-7C23-B1CB-838E26390F95</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadt" id="D4717AD3-5B82-06AF-7113-EA8569809038">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:25:42 UTC</createdTime>
+<generatorID>5A6A90D3-3FA8-9E0D-9E78-156D19E7390D</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B437617-709D-285D-205B-ACC8DC473600" name="Lieferant_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:25:42 UTC</createdTime>
+<generatorID>104631C0-8281-BC66-44F0-EBE2238AF259</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1D3EB0F-42A3-409A-6E59-1042C60FF912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

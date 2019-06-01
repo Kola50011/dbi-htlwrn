@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8523E9D3-73B8-FD4A-545B-0DAB42A7F8A2" containerWithKeyObject="AFB6DC42-DABA-EFCA-485D-73525772A505" localFKIndex="9669A5AF-0C54-0DA8-3961-55E4EC30A77C" name="geeignet_referent_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-19 06:00:47 UTC</createdTime>
+<generatorID>02EB1D80-563A-9FDC-1FA3-991106E6F9F8</generatorID>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<referredTableLongName>referent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C86743D3-3C1D-808D-93E7-175519566CD3</referredTableID>
+<keyObject>06572B25-1B14-7F00-EA20-6DA30676ABDE</keyObject>
+<referredKeyID>06572B25-1B14-7F00-EA20-6DA30676ABDE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>person_pnr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

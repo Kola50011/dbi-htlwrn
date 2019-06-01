@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="setztvor" directorySegmentName="seg_0" id="5A210F29-476A-9C55-B455-3197D02F4DD3">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-18 06:40:51 UTC</createdTime>
+<ownerDesignName>schulungsfirma</ownerDesignName>
+<engineerTo>
+<item key="E68C8E4E-B6F3-7D5A-8C07-47D6542F2C1B" value="true"/>
+</engineerTo>
+<sourcePk>5BB18A82-92C4-9522-53D6-23782B3FFDC1</sourcePk>
+<targetPk>5BB18A82-92C4-9522-53D6-23782B3FFDC1</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E5705AD9-0A78-B105-328B-964BA55A596E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5705AD9-0A78-B105-328B-964BA55A596E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

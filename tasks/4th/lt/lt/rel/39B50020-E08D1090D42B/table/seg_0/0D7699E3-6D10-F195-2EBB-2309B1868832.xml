@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D7699E3-6D10-F195-2EBB-2309B1868832" name="Liefert">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Lieferant_LNR" id="05E3BDB5-89F0-5C90-2337-3EFE6247A5B6">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55949730-8561-D33E-A1B1-5F67EAF80DD5" referredColumn="A1D3EB0F-42A3-409A-6E59-1042C60FF912"/>
+</associations>
+</Column>
+<Column name="Teil_TNR" id="530B9866-DED4-3ED3-886F-D949C92339D8">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56D97BE2-B1C5-2E61-6AEB-0925A7CA86ED" referredColumn="806A46D4-AA5A-A3EF-1E16-D52005ECB76E"/>
+</associations>
+</Column>
+<Column name="Menge" id="A4EB409A-493F-0EF5-60A1-BE9FC0C95BC8">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-17 13:34:25 UTC</createdTime>
+<generatorID>055717A6-01FE-6B08-19C8-E06DE1E313A8</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3175B5AF-4E2D-FC40-F275-C70E2E98439E" name="Liefert_PK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<ownerDesignName>lt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E3BDB5-89F0-5C90-2337-3EFE6247A5B6"/>
+<colUsage columnID="530B9866-DED4-3ED3-886F-D949C92339D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CBC21F2-4065-B22C-276F-4091B6FA1950" name="Liefert_Lieferant_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>AFDF90B4-3930-B43C-1CF1-E612D3A89A47</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E3BDB5-89F0-5C90-2337-3EFE6247A5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9228AF5-920D-B0C8-9FAB-F6A61161DB9E" name="Liefert_Teil_FK">
+<createdBy>Koka</createdBy>
+<createdTime>2017-09-13 06:32:38 UTC</createdTime>
+<generatorID>AFDF90B4-3930-B43C-1CF1-E612D3A89A47</generatorID>
+<ownerDesignName>lt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="530B9866-DED4-3ED3-886F-D949C92339D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
