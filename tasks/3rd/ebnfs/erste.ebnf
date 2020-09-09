@@ -1,0 +1,30 @@
+CreateTable ::= 'create table' Name '(' TableElement (',' TableElement)* ')' ';'
+
+TableElement ::= ColumnDef | TableConst
+
+ColumnDef ::= Name DataType ('default' ( Literal | Niladic | 'null'))? (ColumnConst (' ' ColumnConst)*)?
+
+ColumnConst ::=
+(
+    ('not' 'null' | 'null') |
+    ('unique' | 'primary' 'key') |
+    ('check' '(' SearchCondition ')' ) |
+    ( 'references' Name ( '(' Name ')' )? RefAct*)
+)
+
+TableConst ::=
+(
+    ('unique' | 'primary' 'key')
+      (
+          '(' ColumnComma ')' |
+          ('check' '(' SearchCond ')') |
+          ('foreign' 'key' '(' ColumnComma ')' 'references' Name ( '('ColumnComma')' )? RefAct* )
+      )
+
+)
+
+RefAct ::= 'ON' ('DELETE' | 'UPDATE')  ( ('NO' 'ACTION') | ('SET' 'NULL') | ('SET' 'DEFAULT') | 'CASCADE')
+
+ColumnComma ::= '(' Name (',' Name)* ')'
+
+Name ::= ([a-z] | [A-Z])+ ([a-z] | [A-Z] | [0-9])*

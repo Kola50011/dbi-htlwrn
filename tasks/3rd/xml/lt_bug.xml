@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lt>
+  <lieferant lnr="L1" lname="Schmid" rabatt="20" stadt="London">
+      <liefert tnr="T1" menge="330"/>
+      <liefert tnr="T2" menge="220"/>
+      <liefert tnr="T3" menge="440"/>
+  </lieferant>
+  
+  <teil tnr="T1" tname="Mutter" farbe="rot" preis="12.00" stadt="London" />
+  <teil tnr="T2" tname="Bolzen" farbe="gelb" preis="17.00" stadt="Paris" />
+  <teil tnr="T3" tname="Schraube" farbe="blau" preis="17.00" stadt="Rom" />
+  <teil tnr="T4" tname="Schraube" farbe="rot" preis="14.00" stadt="London" />
+  <teil tnr="T5" tname="Welle" farbe="blau" preis="12.00" stadt="Paris" />
+  <teil tnr="T6" tname="Zahnrad" farbe="rot" preis="19.00" stadt="London" />
+</lt>

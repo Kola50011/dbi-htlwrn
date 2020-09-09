@@ -1,0 +1,28 @@
+default namespace = ""
+
+grammar {
+
+  PriceType = xsd:decimal { minInclusive = "0.0" }
+
+  start = element shiporder {
+            attribute orderid { xsd:positiveInteger},
+            element orderperson { xsd:string },
+            Address,
+            Item+
+          }
+
+  Address = element shipto {
+              element name { xsd:string },
+              element street { xsd:string },
+              element city { xsd:string },
+              element country { xsd:string }
+            }
+
+  Item = element item {
+           element title { xsd:string },
+           element note { xsd:string }?,
+           element quantity { xsd:positiveInteger },
+           element price { PriceType }
+        }
+
+}

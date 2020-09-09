@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ltDatenbank>
+    <lieferant lnr="L1" lname="Schmid" rabatt="20" stadt="London" />
+    <lieferant lnr="L2" lname="Jonas" rabatt="10" stadt="Paris" />
+    <lieferant lnr="L3" lname="Berger" rabatt="30" stadt="Paris" />
+    <lieferant lnr="L4" lname="Klein" rabatt="20" stadt="London" />
+    <lieferant lnr="L5" lname="Adam" rabatt="30" stadt="Athen" />
+  
+    <teil tnr="T1" tname="Mutter" farbe="rot" preis="12.00" stadt="London" />
+    <teil tnr="T2" tname="Bolzen" farbe="gelb" preis="17.00" stadt="Paris" />
+    <teil tnr="T3" tname="Schraube" farbe="blau" preis="17.00" stadt="Rom" />
+    <teil tnr="T4" tname="Schraube" farbe="rot" preis="14.00" stadt="London" />
+    <teil tnr="T5" tname="Welle" farbe="blau" preis="12.00" stadt="Paris" />
+    <teil tnr="T6" tname="Zahnrad" farbe="rot" preis="19.00" stadt="London" />
+  
+    <lieferantenTeil lnr="L1" tnr="T1" menge="330" />
+    <lieferantenTeil lnr="L1" tnr="T2" menge="220" />
+    <lieferantenTeil lnr="L1" tnr="T3" menge="440" />
+    <lieferantenTeil lnr="L1" tnr="T4" menge="220" />
+    <lieferantenTeil lnr="L1" tnr="T5" menge="110" />
+    <lieferantenTeil lnr="L1" tnr="T6" menge="110" />
+    <lieferantenTeil lnr="L2" tnr="T1" menge="330" />
+    <lieferantenTeil lnr="L2" tnr="T2" menge="440" />
+    <lieferantenTeil lnr="L3" tnr="T2" menge="220" />
+    <lieferantenTeil lnr="L4" tnr="T2" menge="220" />
+    <lieferantenTeil lnr="L4" tnr="T4" menge="330" />
+    <lieferantenTeil lnr="L4" tnr="T5" menge="440" />
+</ltDatenbank>

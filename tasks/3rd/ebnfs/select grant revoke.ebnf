@@ -1,0 +1,17 @@
+revoke ::= 'revoke' ( ('all' ('privileges')?) | (operation (',' operation)* ) ) 'on' table 'from' grantee(',' grantee)*
+grant ::= 'grant ' ( ('all' ('privileges')?) | (operation (',' operation)* ) ) 'on' table 'to' grantee(',' grantee)* ('with' 'grant' 'option')?
+
+operation ::= 'select' | 'insert' | 'delete' | ( 'update' ( '(' column (',' column) *')' )?)
+grantee ::= 'public' | user
+
+select ::=
+('all' | 'distinct' )?
+( '*' | expression (',' expression)*)
+'from' tableRef (',' tableRef)*
+('where' searchCon)?
+('group' 'by' ColumnRef (',' ColumnRef)* ('having' searchCon)? )?
+('order' 'by' orderSpec (',' orderSpec)*)?
+
+tableRef ::= table (alias)?
+columnRef ::= ( (table | alias) '.' )? column
+orderSpec ::= (columnRef | integer) ('ASC'|'DESC')?

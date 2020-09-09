@@ -1,0 +1,22 @@
+default namespace = ""
+
+start =
+  element lt {
+    element lieferant {
+      attribute lname { xsd:string },
+      attribute lnr { xsd:string },
+      attribute rabatt { xsd:positiveinteger },
+      attribute stadt { xsd:string },
+      element liefert {
+        attribute menge { xsd:positiveinteger },
+        attribute tnr { xsd:string }
+      }+
+    },
+    element teil {
+      attribute farbe { xsd:string },
+      attribute preis { xsd:decimal },
+      attribute stadt { xsd:string },
+      attribute tname { xsd:string },
+      attribute tnr { xsd:string }
+    }+
+  }

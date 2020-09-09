@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<schulungsfirma>
+  <!-- Kurse und Kursveranstaltungen -->
+
+  <kurs knr="1" bezeichn="Notenkunde" tage="2" preis="1400.0">
+    <geeignet pnr="103" />
+    <geeignet pnr="114" />
+
+    <kveranst knrlfnd="1" von="2003-04-07" bis="2003-04-08" ort="Wien" plaetze="3" referent="103"/>
+    <kveranst knrlfnd="2" von="2004-06-23" bis="2004-06-24" ort="Moskau" plaetze="4" referent="114"/>
+    <kveranst knrlfnd="3" von="2005-04-10" bis="2005-04-11" ort="Paris" plaetze="3" />
+  </kurs>
+  
+  <kurs knr="2" bezeichn="Harmonielehre" tage="3" preis="2000.0">
+    <setztvor knrvor="1" />
+
+    <geeignet pnr="104" />
+    <geeignet pnr="111" />
+
+    <kveranst knrlfnd="1" von="2003-10-09" bis="2003-10-11" ort="Wien" plaetze="4" referent="104" />
+  </kurs>
+  
+  <kurs knr="3" bezeichn="Rhythmik" tage="1" preis="700.0">
+    <setztvor knrvor="1" />
+
+    <geeignet pnr="103" />
+
+    <kveranst knrlfnd="1" von="2003-11-17" bis="2003-11-17" ort="Moskau" plaetze="3" referent="103"/>
+  </kurs>
+  
+  <kurs knr="4" bezeichn="Instrumentenkunde" tage="2" preis="1500.0">
+    <geeignet pnr="104" />
+
+    <kveranst knrlfnd="1" von="2004-01-12" bis="2004-01-13" ort="Wien" plaetze="3" referent="116"/>
+    <kveranst knrlfnd="2" von="2004-03-28" bis="2004-03-29" ort="Wien" plaetze="4" referent="104"/>
+  </kurs>
+  
+  <kurs knr="5" bezeichn="Dirigieren" tage="3" preis="1900.0">
+    <setztvor knrvor="2" />
+    <setztvor knrvor="3" />
+    <setztvor knrvor="4" />
+
+    <geeignet pnr="101" />
+    <geeignet pnr="114" />
+
+    <kveranst knrlfnd="1" von="2004-05-18" bis="2004-05-20" ort="Paris" plaetze="3" referent="101"/>
+    <kveranst knrlfnd="2" von="2004-09-23" bis="2004-09-26" ort="Wien" plaetze="2" referent="101"/>
+    <kveranst knrlfnd="3" von="2005-03-30" bis="2005-04-01" ort="Rom" plaetze="3" />
+  </kurs>
+  
+  <kurs knr="6" bezeichn="Musikgeschichte" tage="2" preis="1400.0">
+    <geeignet pnr="111" />
+  </kurs>
+  
+  <kurs knr="7" bezeichn="Komposition" tage="4" preis="3000.0">
+    <setztvor knrvor="5" />
+    <setztvor knrvor="6" />
+
+    <geeignet pnr="103" />
+    <geeignet pnr="116" />
+
+    <kveranst knrlfnd="1" von="2005-03-09" bis="2005-03-13" ort="Wien" plaetze="5" referent="103"/>
+    <kveranst knrlfnd="2" von="2005-09-14" bis="2005-09-18" ort="München" plaetze="4" referent="103"/>
+  </kurs>
+  
+</schulungsfirma>

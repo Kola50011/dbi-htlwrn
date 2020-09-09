@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ltDatenbank">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="lieferant">
+          <xs:complexType>
+            <xs:attribute name="lnr" type="xs:string" use="required" />
+            <xs:attribute name="lname" type="xs:string" use="required" />
+            <xs:attribute name="rabatt" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="stadt" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="teil">
+          <xs:complexType>
+            <xs:attribute name="tnr" type="xs:string" use="required" />
+            <xs:attribute name="tname" type="xs:string" use="required" />
+            <xs:attribute name="farbe" type="xs:string" use="required" />
+            <xs:attribute name="preis" type="xs:decimal" use="required" />
+            <xs:attribute name="stadt" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="lieferantenTeil">
+          <xs:complexType>
+            <xs:attribute name="lnr" type="xs:string" use="required" />
+            <xs:attribute name="tnr" type="xs:string" use="required" />
+            <xs:attribute name="menge" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
